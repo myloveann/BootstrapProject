@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../Company/src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/css/band_main.css">
+	<title>Band</title>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!--[if lte IE8]>
+		<p class="browserupgrade">您的浏览器版本过低，请点击 <a href="http://www.browsehappy.com">这里</a>进行更新，以获取最佳的用户体验。</p>
+		<![endif]-->
+
+		<!-- 导航栏	 -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Logo</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#myCarousel">主页</a></li>
+						<li><a href="#band">乐队</a></li>
+						<li><a href="#tour">巡演</a></li>
+						<li><a href="#contact">联系</a></li>
+						<li class="dropdown">
+							<a href="#" class="drapdown-toggle" data-toggle="dropdown">更多
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">写真</a></li>
+								<li><a href="#">粉丝团</a></li>
+								<li><a href="#">庆典</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- 乐队轮播图  style="margin-top: 50px" --> 
+		<div id="myCarousel" class="carousel slide" data-ride="carousel"  >
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="src/img/gaobai.jpg" alt="ConfessionBallon"   >
+					<div class="carousel-caption">
+						<h3>告白气球</h3>
+						<p>塞纳河畔 左岸的咖啡
+							我手一杯 品尝你的美
+							留下唇印的嘴
+						</p>
+					</div>  
+				</div>
+
+				<div class="item">
+					<img src="src/img/learn.jpg" alt="couldnotlearn"    >
+					<div class="carousel-caption">
+						<h3>学不会</h3>
+						<p>你的痛苦 我都心痛 想为你解决
+							淡开流言 紧握你手 想飞奔往前
+						</p>
+					</div>   
+				</div>
+
+				<div class="item">
+					<img src="src/img/comic.jpg" alt="slowcomic" >
+					<div class="carousel-caption">
+						<h3>漫动作</h3>
+						<p>期待着拉开这序幕
+							你微笑打招呼
+							突然六神无主</p>
+						</div>    
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+			<div class=" text-center my-container" id="band">
+				<!-- 乐队简介 -->
+				<h3>乐队</h3>
+				<p>我们热爱音乐!</p>
+				<p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<br>
+				<!-- /*成员简介*/ -->
+				<div class="row">
+					<div class="col-sm-4">
+						<p><strong>周杰伦</strong></p>
+						<a href="#zhoujielun" data-toggle="collapse"><img src="src/img/singer_zhou.jpg"  alt="杰伦" class="img-rounded person"></a>
+						<div class="collapse" id="zhoujielun">
+							<p><strong>出生日期：</strong> 1979年1月18日</p>
+							<p><strong>经纪公司：</strong>杰威尔音乐有限公司</p>
+							<p><strong>代表作品：</strong>龙卷风、简单爱、七里香、夜曲、青花瓷、稻香、头文字D、不能说的秘密、逆战、青蜂侠、天台</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<p><strong>林俊杰</strong></p>
+						<a href="#linjunjie" data-toggle="collapse"><img src="src/img/singer_lin.jpg"  alt="俊杰" class=" img-rounded person"></a>
+						<div class="collapse" id="linjunjie">
+							<p><strong>出生日期：</strong> 1981年3月27日</p>
+							<p><strong>毕业院校：</strong> St Andrews Junior College</p>
+							<p><strong>代表作品：</strong>江南、一千年以后、曹操、小酒窝、她说、学不会、修炼爱情、可惜没如果、不为谁而作的歌</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<p><strong>潘玮柏</strong></p>
+						<a href="#panpweibo" data-toggle="collapse"><img src="src/img/singer_pan.jpg"  alt="微博" class=" img-rounded person"></a>
+						<div class="collapse" id="panpweibo">
+							<p><strong>出生日期：</strong> 1980年8月6日</p>
+							<p><strong>唱片公司：</strong>唱片公司环球唱片</p>
+							<p><strong>代表作品：</strong>反转地球、24个比利、零零七、王者丑生、不良笑花、熊猫人、爱无限、漫动作</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 售票信息 -->
+			<div class="bg-1">
+				<div class="container" id="tour" >
+					<div class="text-center">
+						<h3>三大男神合体巡演售票信息</h3>
+						<p>三大男神合体巡演</p>
+						<ul class="list-group text-left">
+							<li class="list-group-item">九月潮州巡演门票&nbsp;<span class="label label-danger">已售罄!</span></li>
+							<li class="list-group-item">十月广州巡演门票&nbsp;<span class="label label-danger">已售罄!</span></li>
+							<li class="list-group-item">十一月广轻巡演门票仅剩 <span class="badge badge-success">300张</span></li>
+						</ul>
+					</div>
+					<!-- 巡演场地简介 -->
+					<div class="tour-place">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="thumbnail text-center">
+									<img src="src/img/chaozhou.jpg" alt="Chaozhou">
+									<p><strong>潮州</strong></p>
+									<p>时间</p>
+									<button class="btn buy-btn" data-toggle="modal" data-target="#mymodal">购票</button>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumbnail text-center">
+									<img src="src/img/chaozhou.jpg" alt="Chaozhou">
+									<p><strong>潮州</strong></p>
+									<p>时间</p>
+									<button class="btn buy-btn" data-toggle="modal" data-target="#mymodal">购票</button>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumbnail text-center">
+									<img src="src/img/chaozhou.jpg" alt="Chaozhou">
+									<p><strong>潮州</strong></p>
+									<p>时间</p>
+									<button class="btn buy-btn" data-toggle="modal" data-target="#mymodal">购票</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 购票模态框 -->
+				<div class="modal fade" id="mymodal" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" type="button" data-dismiss="modal">
+									<span>&times;</span>
+								</button>
+								<h4><span class="glyphicon glyphicon-lock">热销中</span></h4>
+							</div>
+							<div class="modal-body">
+								<form action="#" role="form">
+									<div class="form-group">
+										<label for="psw">
+											<span class="glyphicon glyphicon-shopping-cart">票价：成人票250RMB</span>
+										</label>
+										<input type="number" class="form-control" id="psw" placeholder="请输入您需要购买的票数">
+									</div>
+									<div class="form-group">
+										<label for="username">
+											<span class="glyphicon glyphicon-user">发送</span>
+										</label>
+										<input type="email" class="form-control" id="username" placeholder="请输入邮箱">
+									</div>
+									<button class="btn btn-block" type="submit">下单
+										<span class="glyphicon glyphicon-ok"></span>
+									</button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" data-dismiss="modal" class="btn btn-default pull-left">
+									<span class="glyphicon glyphicon-remove"></span>
+									取消</button>
+									<p>需要<a href="#">帮助？</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 交流联系 -->
+				<div class="container mycontainer" id="contact">
+					<h3 class="text-center">联系</h3>
+					<p class="text-center"><em>关爱每一位粉丝</em></p>
+					<div class="row test">
+						<div class="col-sm-4">
+							<p>粉丝？请留言。</p>
+							<p><span class="glyphicon glyphicon-map-marker"></span>潮州 潮安</p>
+							<p><span class="glyphicon glyphicon-phone"></span>Phone:**********</p>
+							<p><span class="glyphicon glyphicon-envelope"></span>Email:mail@mail.com</p>
+						</div>
+						<div class="col-sm-8">
+							<div class="row">
+								<div class="col-sm-6 form-group">
+									<input type="text" class="form-control" id="name" name="name" placeholder="name" required >
+								</div>
+								<div class="col-sm-6 form-group">
+									<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+								</div>
+							</div>
+							<textarea class="form-control" name="comments" id="comments" placeholder="Comment" rows="5"></textarea>
+							<div class="col-md-12">
+								<button class="btn pull-right send-btn" type="submit" style="margin-top: 2rem;">发送</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- 来自微博信息 -->
+					<h3 class="text-center">微博最新资讯</h3>
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#home" data-toggle="tab">周杰伦</a></li>
+						<li><a href="#menu1" data-toggle="tab">林俊杰</a></li>
+						<li><a href="#menu2" data-toggle="tab">潘玮柏</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade in active" id="home">
+							<h2>Jay Chou</h2>
+							<p>哈哈，三年抱两，人生赢家</p>
+						</div>
+						<div class="tab-pane" id="menu1">
+							<h2>JJ Lin</h2>
+							<p>还是学不会，把爱人牵出来和粉丝见面。</p>
+						</div>
+						<div class="tab-pane" id="menu2">
+							<h2>Wuli Pan</h2>
+							<p>潘帅，你的新专辑，我等很久了！</p>
+						</div>
+					</div>
+				</div>
+				<div id="GaoMap" class="myGaoMap"></div>
+
+				<footer class="text-center">
+					<a href="#myPage" class="up-arrow" data-toggle="tooltip" title="TO TOP">
+						<span class="glyphicon glyphicon-chevron-up"></span>
+					</a> <br> <br>
+					<p>感谢您的浏览，希望能帮到有需要的朋友。这是我准备的面试作品，喜欢就赞一个吧。</p>
+				</footer>
+
+			</body>
+			<script src="../Company/src/dist/js/jquery-1.7.2.js"></script>
+			<script src="../Company/src/dist/js/bootstrap.min.js"></script>
+			<script src="http://webapi.amap.com/maps?v=1.3&key="></script>
+
+			<script>
+				/*113.300583,23.090659*/		
+				$(document).ready(function(){
+				var map = new AMap.Map('GaoMap',{
+				zoom: 10,
+				center: [113.300583,23.090659]
+			});
+
+			$('[data-toggle="tooltip"]').tooltip();
+
+			$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+			// 阻止违约的锚点的行为
+			event.preventDefault();
+			// 保留hash
+			var hash = this.hash;
+			//  使用Jq的animate方法来使页面加载更加顺滑
+			$('html, body').animate({
+			scrollTop: $(hash).offset().top
+		}, 900, function(){
+		window.location.hash = hash;
+	});
+});
+
+});
+
+</script>

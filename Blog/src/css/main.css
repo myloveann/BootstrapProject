@@ -1,0 +1,82 @@
+.sidenav{
+	background-color: #f1f1f1;
+	height: 1320px;
+}
+.news-small{
+	margin: 0.5rem 0;
+}
+hr{
+	border-bottom: dashed 1px gray;
+	margin-top: 0	
+}
+.recent-post{
+	margin-bottom: 2rem;
+}
+.show-picture{
+	margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 30em){
+	.show-picture{
+		margin-left:2rem;
+	}
+}
+/**评论图片居中*/
+@media only screen and (max-width: 30em){
+	.comment-content .text-center{
+		padding-left: 5px;
+	}
+	
+}
+
+@media only screen and (min-width: 30em) and (max-width: 50em){
+	.sidenav{
+		height: 100%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.input-group{
+		width: 98%;
+		margin-bottom: 0.4rem;
+	}
+	.mynavbar-title{
+		margin-top: 0;
+		padding-top: 0.5rem;
+	}
+	.sidenav button.navbar-toggle{
+		margin-top: 0.2rem;
+		margin-right: 0.5rem;
+		margin-bottom: 0;
+	}
+
+}
+
+
+
+/*	导航栏	*/
+@media only screen and (max-width: 30em){
+	.sidenav{
+		height: 100%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.input-group{
+		width: 98%;
+		margin-bottom: 0.4rem;
+	}
+	.mynavbar-title{
+		margin-top: 0;
+		padding-top: 0.5rem;
+	}
+	.sidenav button.navbar-toggle{
+		margin-top: 0.2rem;
+		margin-right: 0.2rem;
+		margin-bottom: 0;
+	}
+	
+}
+/*	底部样式*/
+footer {
+	background-color: #555;
+	color: white;
+	padding: 5px;
+}
